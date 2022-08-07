@@ -81,5 +81,5 @@ def benchmark(func, name, times=10):
 
 if __name__ == "__main__":
     benchmark(natural_stack, "Natural stack (pop/append)", 10000)
-    benchmark(simulated_stack, "Index shift (inline)", 10000)
+    benchmark(index_shifted_stack, "Index shift (inline)", 10000)
     benchmark(quicker_stack, "Index shift (encapsulated)", 10000)

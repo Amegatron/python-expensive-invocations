@@ -24,8 +24,8 @@ def natural_stack(length=9, iterations=200):
     return stack.pop()
 ```
 
-Nothing special here, it's just an arbitrary logic to make some computations. If I now benchmark this method on my PC,
-I will get such results (see `benchmark` method inside `src/main.py`):
+Nothing special here, it's just an arbitrary logic to make some computations using a stack. 
+If I now benchmark this method on my PC, I will get such results (see `benchmark` method inside `src/main.py`):
 
 ```
 Natural stack (pop/append):
